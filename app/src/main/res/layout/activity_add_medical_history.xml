@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context="me.nayan.me.medipast.AddMedicalHistory">
+
+    <ImageView
+        android:id="@+id/prescriptionIV"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/camera"
+        />
+    <Button
+        android:id="@+id/prescriptionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Take Prescription"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:background="@drawable/button_back_style"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:id="@+id/doctorNameET"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Doctor Name"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:enabled="false"
+        android:background="@drawable/text_view_design"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"/>
+    <EditText
+        android:id="@+id/detailsET"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textAllCaps="false"
+        android:hint="Details"
+        android:textColor="@android:color/black"
+        android:background="@drawable/text_view_design"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        />
+    <EditText
+        android:id="@+id/dateET"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Date"
+        android:background="@drawable/text_view_design"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="5dp"/>
+    <Button
+        android:id="@+id/historyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:background="@drawable/button_back_style"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

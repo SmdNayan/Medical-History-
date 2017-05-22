@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context="me.nayan.me.medipast.AddDoctor">
+
+
+    <EditText
+        android:id="@+id/drName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Enter Doctor Name"
+        android:textSize="18sp"
+        android:background="@drawable/text_view_design"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        />
+    <EditText
+        android:id="@+id/drDetails"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Enter Doctor Details"
+        android:textSize="18sp"
+        android:background="@drawable/text_view_design"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/drAppointment"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Enter Doctor Appointment"
+        android:textSize="18sp"
+        android:background="@drawable/text_view_design"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        />
+    <EditText
+        android:id="@+id/drPhone"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Enter Doctor Phone"
+        android:textSize="18sp"
+        android:inputType="phone"
+        android:background="@drawable/text_view_design"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        />
+    <EditText
+        android:id="@+id/drEmail"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Enter Doctor Email"
+        android:inputType="textEmailAddress"
+        android:textSize="18sp"
+        android:background="@drawable/text_view_design"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="5dp"
+        />
+    <Button
+        android:id="@+id/addDrBtn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Add"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_back_style"
+        android:onClick="addDoctor"/>
+</LinearLayout>

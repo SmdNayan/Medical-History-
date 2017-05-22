@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/actionUpdate"
+        android:title="Update"
+        />
+
+    <item
+        android:id="@+id/actionDelete"
+        android:title="Delete"
+        />
+    <item
+        android:id="@+id/actionHome"
+        android:title="Home"
+        />
+
+    <item
+        android:id="@+id/actionLogout"
+        android:title="Logout"
+        />
+</menu>

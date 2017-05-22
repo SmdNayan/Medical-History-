@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="5dp"
+    tools:context="me.nayan.me.medipast.LoginActivity">
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Enter email"
+        android:textSize="18sp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/text_view_design"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        />
+    <EditText
+        android:id="@+id/passET"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Enter Password"
+        android:textSize="18sp"
+        android:inputType="textPassword"
+        android:background="@drawable/text_view_design"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="5dp"
+        />
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Login"
+        android:onClick="login"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_back_style"
+        android:layout_marginBottom="5dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="SignUp"
+        android:onClick="registration"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_back_style"/>
+
+</LinearLayout>

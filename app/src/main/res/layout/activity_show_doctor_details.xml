@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context="me.nayan.me.medipast.ShowDoctorDetails">
+
+    <TextView
+        android:id="@+id/showDrNameTV"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Doctor Name"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingBottom="5dp"
+        android:gravity="center_vertical|center"
+        android:textColor="@android:color/black"
+        android:background="@drawable/text_view_design"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:background="@drawable/text_view_design"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Doctor Details :"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/showDrDetails"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Details"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:background="@drawable/text_view_design"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Date : "
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/showDate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Date"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:background="@drawable/text_view_design"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Doctor Phone :"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/showPhoneTV"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:background="@drawable/text_view_design"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Doctor Email :"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/showEmailTV"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Medical History"
+        android:textAllCaps="false"
+        android:onClick="addMedicalHistory"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_back_style"
+        android:layout_marginBottom="5dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Prescription"
+        android:textAllCaps="false"
+        android:onClick="showAllPrescription"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_back_style"/>
+
+
+</LinearLayout>
